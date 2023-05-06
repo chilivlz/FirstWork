@@ -34,12 +34,12 @@ class ProductManager {
       stock = stock || "no value entered";
 
       if (
-        title == "no value enteredr" ||
+        title == "no value entered" ||
         description == "no value entered" ||
         price == "no value entered" ||
         thumbnail == "no value entered" ||
         code == "no value entered" ||
-        stock == "no value enteredr"
+        stock == "no value entered"
       ) {
         console.log("Error: there are unfilled fields");
       } else {
